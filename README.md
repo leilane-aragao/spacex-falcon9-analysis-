@@ -4,8 +4,7 @@ This project was developed as part of the *Applied Data Science Capstone* for th
    The objective of this project is to analyse SpaceX Falcon 9 launch data to understand the factors that influence landing success and to build predictive models capable of estimating the likelihood of a successful booster landing.
 2. Project Structure:
    spacex-falcon9-analysis/
-│
-├── notebooks/
+   notebooks/
 │   ├── 1 - jupyter_labs_spacex_data_collection_api_v2.ipynb
 │   ├── 2 - jupyter-labs-webscraping.ipynb
 │   ├── 3 - labs_jupyter_spacex_Data_wrangling.ipynb
@@ -13,22 +12,6 @@ This project was developed as part of the *Applied Data Science Capstone* for th
 │   ├── 5- eda .ipynb
 │   ├── 6 - lab_jupyter_launch_site_location (1).ipynb
 │   └── 7 - machine learning  .ipynb
-│
-├── data/
-│   ├── raw/
-│   └── cleaned/
-│
-├── images/
-│   ├── folium_map.png
-│   ├── model_accuracy.png
-│   └── additional_screenshots.png
-│
-├── src/
-│   ├── utils.py
-│   └── model_training.py
-│
-├── README.md
-└── requirements.txt
 3. SQL Analysis - Key Findings
    The SQL component of the project provided foundational insights, including:
 - Identification of all unique launch sites
